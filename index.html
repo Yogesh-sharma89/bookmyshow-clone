@@ -1,0 +1,2186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Movie Tickets, Plays, Sports, Events & Cinemas near Faridabad - BookMyShow
+      Faridabad.
+    </title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #000;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+        padding-inline: 1rem;
+      }
+
+      .swiper-slide {
+        font-size: 18px;
+        /* background: #444; */
+        display: flex;
+        align-items: center;
+        border-radius: 1rem;
+        position: relative;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1rem;
+      }
+
+      .swiper-button-next {
+        color: white;
+        width: fit-content;
+        height: 6px;
+        margin-right: 1%;
+        font-size: 0.6rem;
+      }
+
+      .swiper-button-next::after {
+        height: 100%;
+        font-weight: 400;
+      }
+
+      .swiper-button-prev {
+        color: white;
+        height: 6px;
+        font-size: 1rem;
+        margin-left: 1%;
+        width: fit-content;
+      }
+
+      .swiper-button-prev::after {
+        height: 100%;
+      }
+
+      .swiper-pagination {
+        -webkit-text-fill-color: white;
+      }
+
+      .swiper-pagination-bullet {
+        background-color: #fff;
+        transform: scale(1.1);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="fixed-btn">
+        <button class="button">
+          <svg class="svgIcon" viewBox="0 0 384 512">
+            <path
+              d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <header>
+        <!-- first nav start -->
+        <nav>
+          <!-- left start -->
+
+          <div class="left">
+            <img src="images/logo.svg" alt="" />
+
+            <div class="search-bar">
+              <i class="ri-search-line"></i>
+              <input
+                type="text"
+                placeholder="Search for Movies , Events , plays ,Sports and Activities"
+              />
+            </div>
+          </div>
+          <!-- left end -->
+
+          <!-- right start -->
+          <div class="right">
+            <div class="dropdown">
+              <span>Faridabad</span>
+              <i class="ri-arrow-drop-down-line"></i>
+            </div>
+
+            <button>Sign in</button>
+            <i class="ri-menu-line menu"></i>
+          </div>
+          <!-- right end -->
+        </nav>
+        <!-- first nav end -->
+        <div class="nav-bottom">
+          <div class="bottom-left">
+            <a href="#">Movies</a>
+            <a href="#">Stream</a>
+            <a href="#">Events</a>
+            <a href="#">Plays</a>
+            <a href="#">Sport</a>
+            <a href="#">Activities</a>
+          </div>
+          <div class="bottom-right">
+            <a href="#">ListYourShow</a>
+            <a href="#">Corporates</a>
+            <a href="#">Offers</a>
+            <a href="#">Gift Cards</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="slider">
+        <div class="swiper topSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/banner1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/banner2.avif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/banner3.avif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/banner4.avif" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/banner5.avif" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <section class="recommended">
+        <div class="wrapper">
+          <div class="title">
+            <h1>Recommended Movies</h1>
+            <div class="see-all">
+              <a href="#">See all </a>
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <div class="prev-button" style="opacity: 0">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="next-button">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-slide-1">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/recommend1.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Elio</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Adventure/Action/Drama</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/recommend2.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Sitaree Zameen Par</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Comedy/Drama/Sports</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/recommend3.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>HouseFull 5</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Comedy/thriller</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/recommend4.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>How to Tain your Dragon</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Adventure/Fantasy/Family</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/re6.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>28 years Later</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Horror/thriller</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-slide-2">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/re7.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>From the world of John Wick</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Action/thriller</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/re8.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Kuberra</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Action/Thriller/Social</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/re9.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Mission:Impossible-The Final Reckoning</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Action/Adventure/Thriller</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/re10.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Bhul Chuk Maaf</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Comedy/Drama</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/re11.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Materialists</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Comedy/Drama/Romantic</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card slide 2 end -->
+          </div>
+          <!-- card container end -->
+        </div>
+        <!-- wrapper end -->
+      </section>
+
+      <!-- recommended movies section end -->
+
+      <div class="banner">
+        <img src="images/banner.avif" alt="" />
+      </div>
+
+      <!-- events section starts -->
+
+      <section class="recommended event">
+        <div class="wrapper">
+          <div class="title">
+            <h1>The Best Of All Events</h1>
+          </div>
+
+          <div class="buttons">
+            <div class="prev-button" style="opacity: 0">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="next-button">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-slide-1">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Events/e1.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Events/e2.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Events/e3.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Events/e4.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Events/e5.avif" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card-slide-2">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Events/e6.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Events/e7.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Events/e8.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Events/e9.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Events/e10.avif" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- card slide 2 end -->
+          </div>
+          <!-- card container end -->
+        </div>
+        <!-- wrapper end -->
+      </section>
+
+      <!-- events section end -->
+
+      <!-- premire section start -->
+      <section class="premire">
+        <div class="premire-wrapper">
+          <div class="banner-container">
+            <img src="images/premire banner.avif" alt="" />
+          </div>
+
+          <div class="premire-heading">
+            <h1>Premires</h1>
+            <h3>Brand new realeases every friday</h3>
+          </div>
+
+          <div class="premire-card-container">
+            <div class="premire-card">
+              <img src="images/Premire/p1.avif" alt="" />
+              <div class="premire-card-content">
+                <div class="premire-card-heading">
+                  <h1>Mesericordia</h1>
+                </div>
+                <div class="premire-language">
+                  <h3>French</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="premire-card">
+              <img src="images/Premire/p2.avif" alt="" />
+              <div class="premire-card-content">
+                <div class="premire-card-heading">
+                  <h1>Alpha.</h1>
+                </div>
+                <div class="premire-language">
+                  <h3>Dutch</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="premire-card">
+              <img src="images/Premire/p3.avif" alt="" />
+              <div class="premire-card-content">
+                <div class="premire-card-heading">
+                  <h1>When the light Breaks</h1>
+                </div>
+                <div class="premire-language">
+                  <h3>Icelandic</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="premire-card">
+              <img src="images/Premire/p4.avif" alt="" />
+              <div class="premire-card-content">
+                <div class="premire-card-heading">
+                  <h1>Devmanus</h1>
+                </div>
+                <div class="premire-language">
+                  <h3>Marathi</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="premire-card">
+              <img src="images/Premire/p5.avif" alt="" />
+              <div class="premire-card-content">
+                <div class="premire-card-heading">
+                  <h1>The Break Up Club</h1>
+                </div>
+                <div class="premire-language">
+                  <h3>Dutch</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- premire section end -->
+
+      <!-- music studio section start -->
+
+      <section class="recommended music-studio">
+        <div class="wrapper">
+          <div class="title">
+            <h1>Your Music Studio</h1>
+            <div class="see-all">
+              <a href="#">See all </a>
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <div class="prev-button" style="opacity: 0">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="next-button">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-slide-1">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Music/m1.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Raghir:Kya Jaipur kya Dili Tour</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Studio XO Bar,Sector-29:Gurugram</h3>
+                  </div>
+                  <div class="music-event-type">
+                    <h3>Concerts</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Music/m2.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Sufi Night ft. Master Saleem Live at Khubani</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Khubani, Andaz: Delhi</h3>
+                  </div>
+                  <div class="music-event-type">
+                    <h3>Concerts</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Music/m3.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Cap Mania Tour ft Himesh Reshammiya</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Indira Gandhi Arena: Delhi</h3>
+                  </div>
+                  <div class="music-event-type">
+                    <h3>Concerts</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Music/m4.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Passenger India Tour 2025 - New Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>DLF Cyberhub: Gurugram</h3>
+                  </div>
+                  <div class="music-event-type">
+                    <h3>Concerts</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Music/m5.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Jazbaa Ft Rekha Bhardwaj Live in Concert</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Plenary Hall Bharat Mandapam: Delhir</h3>
+                  </div>
+                  <div class="music-event-type">
+                    <h3>Concerts</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-slide-2">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Music/m6.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Bismil Ki Mehfil 2025 - Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>K D Jadhav Wrestling Stadium (IGI Indoor Stadium)</h3>
+                  </div>
+                  <div class="music-event-type">
+                    <h3>Concerts</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Music/m7.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>DJ Chetas - Chandni Bar Meets Bollywood (Gurugram)</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Room Xo: Gurugram</h3>
+                  </div>
+                  <div class="music-event-type">
+                    <h3>Club Gigs</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Music/m8.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>SONU NIGAM LIVE IN CONCERT GURUGRAM</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Gymkhana Club: Gurugram</h3>
+                  </div>
+                  <div class="music-event-type">
+                    <h3>Concerts</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Music/m9.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Room XO Presents Mika Singh</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Room Xo: Gurugram</h3>
+                  </div>
+                  <div class="music-event-type">
+                    <h3>Club Gigs</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Music/m10.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>VILEN LIVE - DELHI (NCR)</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Room Xo: Gurugram</h3>
+                  </div>
+                  <div class="music-event-type">
+                    <h3>Club Gigs</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card slide 2 end -->
+          </div>
+          <!-- card container end -->
+        </div>
+        <!-- wrapper end -->
+      </section>
+
+      <!-- music studio section end -->
+
+      <!-- outdoor event start -->
+
+      <section class="recommended outdoor">
+        <div class="wrapper">
+          <div class="title">
+            <h1>OutDoor Events</h1>
+            <div class="see-all">
+              <a href="#">See all </a>
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <div class="prev-button" style="opacity: 0">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="next-button">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-slide-1">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/outdoor/o1.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Jo Bolta Hai Wahi Hota Hai Ft. Harsh Gujral- Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Talkatora Stadium: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/outdoor/o2.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Bismil Ki Mehfil 2025 - Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>K D Jadhav Wrestling Stadium (IGI Indoor Stadium)</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/outdoor/03.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>HUMARE RAM Ft Ashutosh Rana and Rahull R Bhuchar</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Kamani Auditorium: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/outdoor/o4.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Worlds Of Wonder - Water Park</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Worlds of Wonder: Noida</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/outdoor/o5.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>DELHI HEROES HALF MARATHON</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>JLN Stadium Gate No. 2: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-slide-2">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/outdoor/o6.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Chess Tournament (online)</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/outdoor/o7.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Nehru Planetarium, Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Nehru Planetarium: New Delhi.</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/outdoor/o8.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Soul Shot Firing Range</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Soul Shot Firing Range: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/outdoor/o9.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Soul Shot Firing Range: Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Soul Shot Firing Range: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/outdoor/o10.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Soul Shot Firing Range: Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card slide 2 end -->
+          </div>
+          <!-- card container end -->
+        </div>
+        <!-- wrapper end -->
+      </section>
+
+      <!-- outdoor event end -->
+
+      <!-- laughter section start -->
+
+      <section class="recommended laughter">
+        <div class="wrapper">
+          <div class="title">
+            <h1>Laughter Theraphy</h1>
+            <div class="see-all">
+              <a href="#">See all </a>
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <div class="prev-button" style="opacity: 0">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="next-button">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-slide-1">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/laughter/l1.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>PS - I Love You By Pranav Sharma</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Ghalib Auditorium: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/laughter/l2.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Jo Bolta Hai Wahi Hota Hai Ft. Harsh Gujral- Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Talkatora Stadium: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/laughter/l3.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Gaurav Kapoor Live</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Laugh Store: DLF Cyberhub, Gurugram</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/laughter/l4.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Comedy Nights @Comedy County</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Laugh Store: DLF Cyberhub, Gurugram</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/laughter/l5.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Kisi Ko Batana Mat By Anubhav Singh Bassi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Laugh Store: DLF Cyberhub, Gurugram</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-slide-2">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/laughter/l6.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Daily Ka Kaam Hai By Aakash Gupta</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Laugh Store: DLF Cyberhub, Gurugram</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/laughter/l7.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Master Peace - Standup Comedy Show By Madhur Virli</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Laugh Store: DLF Cyberhub, Gurugram</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/laughter/l8.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Kisi Ko Batana Mat By Anubhav Singh Bassi - Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Talkatora Stadium: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/laughter/l9.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Jo Bolta Hai Wohi Hota Hai Ft. Harsh Gujral</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Laugh Store: DLF Cyberhub, Gurugram</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/laughter/l10.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>PRACTICE - A Standup Comedy Show by Manik Mahna</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Laugh Store: DLF Cyberhub, Gurugram</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card slide 2 end -->
+          </div>
+          <!-- card container end -->
+        </div>
+        <!-- wrapper end -->
+      </section>
+
+      <!-- laughter section end -->
+
+      <!-- latest play section start -->
+      <section class="recommended latest-play">
+        <div class="wrapper">
+          <div class="title">
+            <h1>The Latest Plays</h1>
+            <div class="see-all">
+              <a href="#">See all </a>
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <div class="prev-button" style="opacity: 0">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="next-button">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-slide-1">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/latest-play/p1.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>HUMARE RAM Ft Ashutosh Rana and Rahull R Bhuchar</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Hindi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/latest-play/p2.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Ganga's Curse</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>English/Hindi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/latest-play/p3.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Taj Mahal Ka Tender</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Hindi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/latest-play/p4.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Aadhe Adhure</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Hindi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/latest-play/p5.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Samudramanthan</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Hindi</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-slide-2">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/latest-play/p6.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Rang Shashthi-Rang Sangeet</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Hindi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/latest-play/p7.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>'Chakravyuh' featuring Nitish Bharadwaj as Krishna</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Hindi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/latest-play/p8.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Hasna Mana Hai</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Hindi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/latest-play/p9.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Raju Raja Ram aur Main</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Hindi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/latest-play/p10.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Mahrani KaiKeyi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Hindi</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card slide 2 end -->
+          </div>
+          <!-- card container end -->
+        </div>
+        <!-- wrapper end -->
+      </section>
+      <!-- latest play section end -->
+
+      <!-- popular section start -->
+      <section class="recommended popular">
+        <div class="wrapper">
+          <div class="title">
+            <h1>Popular Events</h1>
+            <div class="see-all">
+              <a href="#">See all </a>
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <div class="prev-button" style="opacity: 0">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="next-button">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-slide-1">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Popular/po1.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>New Club In Town - A StandUp Comedy LineUp Show</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Social House: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Popular/po2.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>PS - I Love You By Pranav Sharma</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Ghalib Auditorium: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Popular/po3.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Da Vinci Genius - Interactive Immersive Experience</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Hub, DLF Promenade Mall, Vasant Kunj: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Popular/po4.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>KidZania Delhi NCR</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>KidZania: Noida</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Popular/po5.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Halki Halki Fati? By Vikas Kush Sharma</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Noor by Khubani: Noida</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-slide-2">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Popular/po6.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>PRACTICE - A Standup Comedy Show by Manik Mahna</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Laugh Store: DLF Cyberhub, Gurugram</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Popular/po7.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Life ka Tamasha by Amandeep Khayal - Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Aiwan-E-Ghalib Auditorium: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Popular/po8.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>ALLOW ME - A Standup Comedy Show by Rahul Dua</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Laugh Store: DLF Cyberhub, Gurugram</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Popular/po9.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Crowd-Work Show by Manhar Seth</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Laugh Store: DLF Cyberhub, Gurugram</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/Popular/po10.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Comedy Show Noida Sector 18</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Highlane Comedy Club: Noida</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card slide 2 end -->
+          </div>
+          <!-- card container end -->
+        </div>
+        <!-- wrapper end -->
+      </section>
+      <!-- popular section end -->
+
+      <!-- sport section start -->
+
+      <section class="recommended sports">
+        <div class="wrapper">
+          <div class="title">
+            <h1>Top Games & Sports Events</h1>
+            <div class="see-all">
+              <a href="#">See all </a>
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <div class="prev-button" style="opacity: 0">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="next-button">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-slide-1">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/sports/s1.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>International Yoga Day Walkathon 2025</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/sports/s2.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Hercules Virtual Marathon - Get Medal by Courier</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/sports/s3.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>7 DAYS RUN CHALLENGE</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/sports/s4.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Junior Wonder Virtual Marathon for Kids</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/sports/s5.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Chess Championship (Online)-Kids Special</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-slide-2">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/sports/s6.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Rugby Premier League - Day 12</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Rugby</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/sports/s7.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>SUMMER SWIM CHALLENGE</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/sports/s8.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Run for Fitness Marathon - Get Medal by Courier</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/sports/s9.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>
+                      Jai Hind Virtual Marathon - Get Colorful Medal by Courier
+                    </h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/sports/s10.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Chess Royale Championship</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Your Place and Your Time: India</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card slide 2 end -->
+          </div>
+          <!-- card container end -->
+        </div>
+        <!-- wrapper end -->
+      </section>
+
+      <!-- sport section end -->
+
+      <!-- fun activity section start -->
+      <section class="recommended fun-activity">
+        <div class="wrapper">
+          <div class="title">
+            <h1>Explore Fun Activities</h1>
+            <div class="see-all">
+              <a href="#">See all </a>
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <div class="prev-button" style="opacity: 0">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="next-button">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-slide-1">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/fun/f1.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Sky Jumper Trampoline Park</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Multiple Venues</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/fun/f2.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Smaaash - Game On</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Multiple Venues</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/fun/f3.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Atlantic Water World</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Atlantic Water World: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/fun/f4.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Jai Hind - Red Fort Light and Sound Show</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Red Fort: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/fun/f5.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Drizzling Land Water And Amusement Park</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Drizzling Land Water and Amusement Park: Ghaziabad</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-slide-2">
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/fun/f6.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Drizzling Land Water and Amusement Park: Ghaziabad</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Museum Of Illusions: New Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/fun/f7.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Snow Masti - Greater Noida</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>The Grand Venice Mall: Noida</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/fun/f8.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Jurasik Water Park</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Jurasik Park Inn: Sonipat</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/fun/f9.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Sky Jumper Trampoline Park - Delhi</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>SkyJumper Trampoline Park: Delhi</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="img-container">
+                  <img src="images/fun/f10.avif" alt="" />
+                </div>
+                <div class="card-content">
+                  <div class="card-heading">
+                    <h2>Formula Karting - Noida</h2>
+                  </div>
+                  <div class="movie-type">
+                    <h3>Formula Karting: Noida</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card slide 2 end -->
+          </div>
+          <!-- card container end -->
+        </div>
+        <!-- wrapper end -->
+      </section>
+      <!-- fun activity section end -->
+
+      <!-- best bollwood movies of 2025 section -->
+      <section class="best-movies">
+        <h1>Best Movies Of Bollwood 2025</h1>
+        <div class="wrapper-2">
+          <div class="inner" style="--quantity: 10">
+            <div class="card-2" style="--index: 0; --color-card: 142, 249, 252">
+              <div class="img">
+                <img
+                  src="https://i.ytimg.com/vi/PLXwUS_TYhE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDSU4QCl5u9Z1zGhJt5TpF7_dsJBQ"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2" style="--index: 1; --color-card: 142, 252, 204">
+              <div class="img">
+                <img
+                  src="https://images.filmibeat.com/ph-big/2024/08/chhavva-movie-stils-on-set-pictures-poster-stills1724226911_1.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2" style="--index: 2; --color-card: 142, 252, 157">
+              <div class="img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BNjNhODY5OWEtZjMxNy00NzFhLWIzOTQtZTNmYjUwOGRiMzYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2" style="--index: 3; --color-card: 215, 252, 142">
+              <div class="img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BM2EyODc0NmUtYzZjYy00NDRhLWExNTgtNDk3YTIyMjE4YmY5XkEyXkFqcGc@._V1_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2" style="--index: 4; --color-card: 252, 252, 142">
+              <div class="img">
+                <img
+                  src="https://cdn.gokommerce.com/miindia/6MV2S2TV_skyforce.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2" style="--index: 5; --color-card: 252, 208, 142">
+              <div class="img">
+                <img
+                  src="https://images.news18.com/ibnlive/uploads/2025/04/1.-Kesari-Chapter-2-2025-04-16b3056ca72cab5f6c0b5da540c19ceb.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2" style="--index: 6; --color-card: 252, 142, 142">
+              <div class="img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BOWEzZTQ4NzYtZGY5ZS00M2VmLWI5OWItZjZiM2QyYTRmMTkwXkEyXkFqcGc@._V1_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2" style="--index: 7; --color-card: 252, 142, 239">
+              <div class="img">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/2/2f/Fateh_film_poster.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2" style="--index: 8; --color-card: 204, 142, 252">
+              <div class="img">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BZWM3ZDVhZmYtYmMyNy00NWYzLTg4MWQtODllZDE0ZDZjZjE3XkEyXkFqcGc@._V1_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-2" style="--index: 9; --color-card: 142, 202, 252">
+              <div class="img">
+                <img
+                  src="https://resizing.flixster.com/R7JQIE8plnOCe-0w0yw_PlrvhKM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Y4OTYzNjg1LTkzYzEtNDUzMS04NjQyLTVjN2E3OGMxZmQ1Yi5qcGc="
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- best bollwood movies of 2025 section end -->
+
+      <!-- trending section start -->
+      <section class="trending">
+        <div class="trending-wrapper">
+          <div class="trending-heading">
+            <h1>Trending Searches Right Now</h1>
+          </div>
+          <div class="trending-topics">
+            <a href="#">
+              <div class="topic">
+                <h2>Sitarre Zameen Par</h2>
+                <h3>Movies</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="topic">
+                <h2>F1:The Movie</h2>
+                <h3>Movies</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="topic">
+                <h2>Materialists</h2>
+                <h3>Movies</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="topic">
+                <h2>Housefull 5</h2>
+                <h3>Movies</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="topic">
+                <h2>Kuberra</h2>
+                <h3>Movie</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="topic">
+                <h2>Maa</h2>
+                <h3>Movie</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="topic">
+                <h2>Cap Mania Tour Ft. Himesh Reshammiya</h2>
+                <h3>Events</h3>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="topic">
+                <h2>Nehru Planetarium , Delhi</h2>
+                <h3>Activities</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- trending section end -->
+
+      <!-- footer start -->
+      <footer>
+        <div class="footer-top">
+          <img src="images/hut.svg" alt="hut image" />
+          <h4>List Your Show</h4>
+          <p>
+            Got a show, event, activity or a great experience? Partner with us &
+            get listed on BookMyShow
+          </p>
+          <a href="#">Contact Today!</a>
+        </div>
+        <div class="footer-mid">
+          <div class="mid-upper">
+            <a href="#">
+              <div class="customer-care">
+                <img src="images/footer/customer.svg" alt="" />
+                <h4>24/7 Customer Care</h4>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="booking">
+                <img src="images/footer/booking.svg" alt="" />
+                <h4>Resend Booking Confirmation</h4>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="Subscribe">
+                <img src="images/footer/subcribe.svg" alt="" />
+                <h4>Subscribe to the Newsletter</h4>
+              </div>
+            </a>
+          </div>
+          <div class="mid-lower">
+            <div class="part part1">
+              <h3>Upcoming Movies In Faridabad</h3>
+              <div class="links">
+                <a href="#">X & Y</a>
+                <a href="#">All is Well</a>
+                <a href="#">Timmana Mottigalu</a>
+                <a href="#">Maargan</a>
+                <a href="#">Well Done C.A Shab!</a>
+                <a href="#">Jalebi Rocks</a>
+                <a href="#">Thiruk Kural</a>
+                <a href="#">Time pass</a>
+                <a href="#">Nikita Roy</a>
+              </div>
+            </div>
+            <div class="part part2">
+              <h3>Movies By Genre</h3>
+              <div class="links">
+                <a href="#">Drama Movies</a>
+                <a href="#">Comedy Movies</a>
+                <a href="#">Thriller Movies</a>
+                <a href="#">Action Movies</a>
+                <a href="#">Adventure Movies</a>
+                <a href="#">Romantic Movies</a>
+                <a href="#">Family Movies</a>
+                <a href="#">Crime Movies</a>
+                <a href="#">Horror Movies</a>
+                <a href="#">Sports Movies</a>
+              </div>
+            </div>
+            <div class="part part3">
+              <h3>Movies By Language</h3>
+              <div class="links">
+                <a href="#">Movies in English</a>
+                <a href="#">Movies in Hindi</a>
+                <a href="#">Movies in English 2D</a>
+                <a href="#">Movies in Bangali</a>
+                <a href="#">Movies in Tamil</a>
+                <a href="#">Movies in Telugu</a>
+                <a href="#">Movies in Nepali</a>
+                <a href="#">Movies in Malayalam</a>
+              </div>
+            </div>
+            <div class="part part4">
+              <h3>Sports Event in Faridabad</h3>
+              <div class="links">
+                <a href="#">Running</a>
+                <a href="#">Chess</a>
+                <a href="#">Rugby</a>
+                <a href="#">Cyclying</a>
+                <a href="#">Walking</a>
+                <a href="#">Cricket</a>
+                <a href="#">Mixed Martail Arts</a>
+                <a href="#">Horse Race</a>
+                <a href="#">Shooting</a>
+                <a href="#">Wrestling</a>
+              </div>
+            </div>
+            <div class="part part5">
+              <h3>Event in Top Cities</h3>
+              <div class="links">
+                <a href="#">Event in Mumbai</a>
+                <a href="#">Event in Delhi</a>
+                <a href="#">Event in Chennai</a>
+                <a href="#">Event in Bengaluru</a>
+                <a href="#">Event in Hyderabad</a>
+                <a href="#">Event in Pune</a>
+                <a href="#">Event in Kolkata</a>
+                <a href="#">Event in Kochi</a>
+              </div>
+            </div>
+            <div class="part part6">
+              <h3>Cinema in Top Cities</h3>
+              <div class="links">
+                <a href="#">Cinema in Mumbai</a>
+                <a href="#">Cinema in Delhi</a>
+                <a href="#">Cinema in Chennai</a>
+                <a href="#">Cinema in Bengaluru</a>
+                <a href="#">Cinema in Hyderabad</a>
+                <a href="#">Cinema in Pune</a>
+                <a href="#">Cinema in Kolkata</a>
+                <a href="#">Cinema in Kochi</a>
+              </div>
+            </div>
+            <div class="part part7">
+              <h3>Plays in Top Cities</h3>
+              <div class="links">
+                <a href="#">Plays in Mumbai</a>
+                <a href="#">Plays in Delhi</a>
+                <a href="#">Plays in Chennai</a>
+                <a href="#">Plays in Bengaluru</a>
+                <a href="#">Plays in Hyderabad</a>
+                <a href="#">Plays in Pune</a>
+                <a href="#">Plays in Kolkata</a>
+                <a href="#">Plays in Kochi</a>
+              </div>
+            </div>
+            <div class="part part8">
+              <h3>Activities in Top Cities</h3>
+              <div class="links">
+                <a href="#">Activities in Mumbai</a>
+                <a href="#">Activities in Delhi</a>
+                <a href="#">Activities in Chennai</a>
+                <a href="#">Activities in Bengaluru</a>
+                <a href="#">Activities in Hyderabad</a>
+                <a href="#">Activities in Pune</a>
+                <a href="#">Activities in Kolkata</a>
+                <a href="#">Activities in Kochi</a>
+              </div>
+            </div>
+            <div class="part part9">
+              <h3>Movies Now Showing</h3>
+              <div class="links">
+                <a href="#">Sitaree Zameen Par</a>
+                <a href="#">Housefull 5</a>
+                <a href="#">Kuberra</a>
+                <a href="#">DNA</a>
+                <a href="#">How to Train your Dragon</a>
+                <a href="#">Jaraan</a>
+                <a href="#">Elio</a>
+                <a href="#">Maadeva</a>
+                <a href="#">8 Vastantalu</a>
+              </div>
+            </div>
+            <div class="part part10">
+              <h3>Countries</h3>
+              <div class="links">
+                <a href="#">Indonesia</a>
+                <a href="#">Singapore</a>
+                <a href="#">UAE</a>
+                <a href="#">Sri Lanka</a>
+                <a href="#">Westendies</a>
+              </div>
+            </div>
+            <div class="part part11">
+              <h3>Help</h3>
+              <div class="links">
+                <a href="#">About us</a>
+                <a href="#">Contact us</a>
+                <a href="#">Current Opening</a>
+                <a href="#">Press Release</a>
+                <a href="#">Press Coverage</a>
+                <a href="#">Sitemap</a>
+                <a href="#">FAQs</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+              </div>
+            </div>
+
+            <div class="part part12">
+              <h3>Book Myshow Exclusive</h3>
+              <div class="links">
+                <a href="#">Loolapalloza India</a>
+                <a href="#">BookAChange</a>
+                <a href="#">Corporate Vouchers</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">List My Show</a>
+                <a href="#">Offers</a>
+                <a href="#">Stream</a>
+                <a href="#">Trailers</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-end">
+          <div class="logo">
+            <div class="line-1"></div>
+            <a href="#">
+              <img src="images/footer/footer-logo.svg" alt="logo" />
+            </a>
+            <div class="line-2"></div>
+          </div>
+          <div class="social-links">
+            <a href="#">
+              <img src="images/footer/facebook.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="images/footer/x.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="images/footer/insta.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="images/footer/youtube.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="images/footer/pinterest.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="images/footer/linkdein.svg" alt="" />
+            </a>
+          </div>
+          <div class="copyright">
+            <p>
+              Copyright 2025 &copy; Bigtree Entertainment Pvt. Ltd. All Rights
+              Reserved.
+            </p>
+            <p>
+              The content and images used on this site are copyright protected
+              and copyrights vests with the respective owners. The usage of the
+              content and images on this website is intended to <br />
+              promote the works and no endorsement of the artist shall be
+              implied. Unauthorized use is prohibited and punishable by law.
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/lenis@1.3.4/dist/lenis.min.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
